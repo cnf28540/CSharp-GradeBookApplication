@@ -12,7 +12,7 @@ namespace GradeBook.GradeBooks
         List<char> possibleGrades;
         private GradeRanker ranker;
 
-        public RankedGradeBook(string name) : base(name)
+        public RankedGradeBook(string name, bool isWeighted) : base(name, isWeighted)
         {
             possibleGrades = new List<char>
             {
