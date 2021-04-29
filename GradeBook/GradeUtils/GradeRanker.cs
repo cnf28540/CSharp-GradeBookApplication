@@ -72,7 +72,7 @@ namespace GradeBook.GradeUtils
 
             foreach (double bound in gradeBoundaries)
             {
-                if (input >= bound)
+                if (input > bound)
                 {
                     return gradeMapping[index];
                 }
